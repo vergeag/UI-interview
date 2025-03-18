@@ -1,0 +1,12 @@
+@use "@angular/material" as mat;
+
+.button-style {
+  @include mat.button-overrides(
+    (
+      protected-container-color: green,
+      protected-label-text-color: red,
+      protected-label-text-size: 14px,
+      protected-label-text-tracking: 12px,
+    )
+  );
+}
