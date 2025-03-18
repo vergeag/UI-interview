@@ -14,5 +14,4 @@ export class TheButtonComponent {
   // https://material.angular.io/components/button/styling
   // a) Change the background colour to Green
   // b) Change the text size to 14px
-  // c) Modify text spacing
 }
